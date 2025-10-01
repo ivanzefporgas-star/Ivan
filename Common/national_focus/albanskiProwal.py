@@ -131,3 +131,4 @@ for i in range(4):
     frame.grid_columnconfigure(i, weight=1)
 
 root.mainloop()
+#Hi all eg fra ukraina eg likar meg katt
