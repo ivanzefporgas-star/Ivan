@@ -125,7 +125,6 @@ for i, row in enumerate(buttons):
         btn.grid(row=i, column=j, sticky="nsew", padx=8, pady=8, ipadx=5, ipady=15)
         btn.bind("<Button-1>", on_click)
 
-# Make buttons expand and fill space
 for i in range(4):
     frame.grid_rowconfigure(i, weight=1)
     frame.grid_columnconfigure(i, weight=1)
